@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="numpad">
+        <item>@id/button_0</item>
+        <item>@id/button_1</item>
+        <item>@id/button_2</item>
+        <item>@id/button_3</item>
+        <item>@id/button_4</item>
+        <item>@id/button_5</item>
+        <item>@id/button_6</item>
+        <item>@id/button_7</item>
+        <item>@id/button_8</item>
+        <item>@id/button_9</item>
+    </array>
+
+    <array name="font_sizes">
+        <item>40.0</item>
+        <item>32.0</item>
+        <item>26.0</item>
+        <item>18.0</item>
+    </array>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <Button style="@style/Theme.Calc.Button"
+            android:id="@+id/button_divide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="÷" />
+        <Button style="@style/Theme.Calc.Button"
+            android:id="@+id/button_multiply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="×" />
+        <Button style="@style/Theme.Calc.Button"
+            android:id="@+id/button_subtract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+        <Button style="@style/Theme.Calc.Button"
+            android:id="@+id/button_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <Button style="@style/Theme.Calc.Button"
+            android:id="@+id/button_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="←" />
+        <Button style="@style/Theme.Calc.Button"
+            android:id="@+id/button_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C" />
+        <Button style="@style/Theme.Calc.Button"
+            android:id="@+id/button_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:visibility="invisible" />
+        <Button style="@style/Theme.Calc.Button"
+            android:id="@+id/button_equals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="=" />
+    </LinearLayout>
+</LinearLayout>
